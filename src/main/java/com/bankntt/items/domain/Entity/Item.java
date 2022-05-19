@@ -1,4 +1,4 @@
-package com.TemplateNTT.domain.Entity;
+package com.bankntt.items.domain.Entity;
 
 
 import javax.validation.constraints.NotBlank;
@@ -44,6 +44,4 @@ public class Item {
 	
 	private Boolean invntItem;
 	
-	private String bs;
-
 }

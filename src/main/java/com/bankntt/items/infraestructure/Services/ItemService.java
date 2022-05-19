@@ -1,13 +1,13 @@
-package com.TemplateNTT.infraestructure.Services;
+package com.bankntt.items.infraestructure.Services;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
-import com.TemplateNTT.domain.Entity.Item;
-import com.TemplateNTT.domain.Repository.ItemRepository;
-import com.TemplateNTT.infraestructure.Intefaces.IItemService;
+import com.bankntt.items.domain.Entity.Item;
+import com.bankntt.items.domain.Repository.ItemRepository;
+import com.bankntt.items.infraestructure.Intefaces.IItemService;
 
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;

@@ -1,4 +1,4 @@
-package com.TemplateNTT.application.Controller;
+package com.bankntt.items.application.Controller;
 
 public class EntityNotExistsException extends Exception{
 	/**

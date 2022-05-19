@@ -1,8 +1,8 @@
-package com.TemplateNTT.domain.Repository;
+package com.bankntt.items.domain.Repository;
 
 import org.springframework.data.mongodb.repository.ReactiveMongoRepository;
 
-import com.TemplateNTT.domain.Entity.Item;
+import com.bankntt.items.domain.Entity.Item;
 
 import reactor.core.publisher.Mono;
 

@@ -1,4 +1,4 @@
-package com.TemplateNTT.application.Controller;
+package com.bankntt.items.application.Controller;
 
 import java.net.URI;
 import java.util.HashMap;
@@ -18,8 +18,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.TemplateNTT.domain.Entity.Item;
-import com.TemplateNTT.infraestructure.Services.ItemService;
+import com.bankntt.items.domain.Entity.Item;
+import com.bankntt.items.infraestructure.Services.ItemService;
 
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
